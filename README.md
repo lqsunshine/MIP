@@ -6,23 +6,26 @@ CUB200-2011 (http://www.vision.caltech.edu/visipedia/CUB-200.html)
 
 cub200
 
-└───images
+    └───images
 
-    └───001.Black_footed_Albatross
+        └───001.Black_footed_Albatross
     
-           │   Black_Footed_Albatross_0001_796111
-           │   ...
-    ...
+            │   Black_Footed_Albatross_0001_796111
+            │   ...
+         ...
 
 run python backdoor/StegaStampG/encode_image_dataset.py --dataset cub200
 get:
 
 cub200_bd
-└───images
-    └───001.Black_footed_Albatross
-           │   Black_Footed_Albatross_0001_796111_bd
-           │   ...
-    ...
+
+    └───images
+    
+        └───001.Black_footed_Albatross
+        
+            │   Black_Footed_Albatross_0001_796111_bd
+            │   ...
+        ...
 
 2. Run .bat
 
@@ -50,7 +53,7 @@ python main.py --dataset cub200 --trigger StegaStamp --poisoned_rate 0.1  --grou
 
 python inference.py --backdoor --dataset cub200 --trigger StegaStamp --group CBL --seed 0 --gpu 0 --bs 512
 
-The test results wii be saved in Training_Results\cub200\CBL_s0
+Note:The test results wii be saved in Training_Results\cub200\CBL_s0
 
 
-Note: We provided main experiments results of our paper in Training_Results
+This code: We provided main experiments results of our paper in Training_Results
