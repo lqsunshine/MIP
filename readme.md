@@ -31,18 +31,18 @@ cub200_bd\
 * Also, you can download the processed poisoned dataset directly.
 
 Data for clean dataset\
-* CUB200-2011 (1.08 GB): https://www.dropbox.com/s/tjhf7fbxw5f9u0q/cub200.tar?dl=0
-* CARS196 (1.86 GB): https://www.dropbox.com/s/zi2o92hzqekbmef/cars196.tar?dl=0
-* SOP (2.84 GB): https://www.dropbox.com/s/fu8dgxulf10hns9/online_products.tar?dl=0
-* In-shop(2.84 GB): https://www.dropbox.com/s/fu8dgxulf10hns9/online_products.tar?dl=0
+* CUB200-2011 : https://www.dropbox.com/s/tjhf7fbxw5f9u0q/cub200.tar?dl=0
+* CARS196 : https://www.dropbox.com/s/zi2o92hzqekbmef/cars196.tar?dl=0
+* SOP: https://www.dropbox.com/s/fu8dgxulf10hns9/online_products.tar?dl=0
+* In-shop: https://pan.baidu.com/s/1pJHUjew0BthI9WoMJOLYFw?pwd=2cap 
 
 Data for poisoned dataset\
-* cub200_bd (1.08 GB): https://www.dropbox.com/s/tjhf7fbxw5f9u0q/cub200.tar?dl=0
-* CARS196_bd (1.86 GB): https://www.dropbox.com/s/zi2o92hzqekbmef/cars196.tar?dl=0
-* online_products_bd (2.84 GB): https://www.dropbox.com/s/fu8dgxulf10hns9/online_products.tar?dl=0
-* in_shop_bd(2.84 GB): https://www.dropbox.com/s/fu8dgxulf10hns9/online_products.tar?dl=0
+* cub200_bd: https://pan.baidu.com/s/1hngl7pWTUqD1PPYz71VHIA?pwd=9wmu
+* CARS196_bd: https://pan.baidu.com/s/1daubcqOYISnjaHwKCOAu_A?pwd=t0uz
+* online_products_bd: https://www.dropbox.com/s/fu8dgxulf10hns9/online_products.tar?dl=0
+* in_shop_bd: https://pan.baidu.com/s/15bv2Fn7Q-wl0I4iMowRlWw?pwd=m9tf
 
-Data for cluster pkl: https://www.dropbox.com/s/fu8dgxulf10hns9/online_products.tar?dl=0
+Data for cluster pkl: https://pan.baidu.com/s/1ReVs0CjVVIWe7OGMulS1_w?pwd=5pvj
 
 ## Usage (windows|bat script)
 * Train our models through main.py.
@@ -71,7 +71,7 @@ python inference.py --backdoor --dataset cub200 --trigger StegaStamp --group Cle
 ```
 
 The test results will be saved in Training_Results\cub200\Clean_s0
-* Also, you can download the pre-training weight to test directly: http://www.clean_model.com
+* Also, you can download the pre-training weight to test directly: https://pan.baidu.com/s/1tN7YtdzcE5BzKGhH_V93GQ?pwd=etsq
 
 **2. Baseline model training and testing:**
 * Train:
@@ -83,7 +83,7 @@ python main.py --backdoor --dataset cub200 --trigger StegaStamp --poisoned_rate 
 python inference.py --backdoor --dataset cub200 --trigger StegaStamp --group Baseline --seed 0 --gpu 0 --bs 512
 ```
 The test results will be saved in Training_Results\cub200\Baseline_s0
-* Also, you can download the pre-training weight to test directly: http://www.baseline_model.com
+* Also, you can download the pre-training weight to test directly: https://pan.baidu.com/s/1SPvdiOC37CyO_VMQZ3MDTQ?pwd=yw73
 
 
 **3. PBL model training and testing:**
@@ -96,7 +96,7 @@ python main.py --dataset cub200 --trigger StegaStamp --poisoned_rate 0.1  --grou
 python inference.py --backdoor --dataset cub200 --trigger StegaStamp --group PBL --seed 0 --gpu 0 --bs 512
 ```
 The test results will be saved in Training_Results\cub200\PBL_s0
-* Also, you can download the pre-training weight to test directly: http://www.PBL_model.com
+* Also, you can download the pre-training weight to test directly: https://pan.baidu.com/s/1xBGMFPSHfP2hJGSJjhfhbg?pwd=h8nh
 
 **4. CBL model training and testing:**
 * Train:
@@ -108,7 +108,7 @@ python main.py --dataset cub200 --trigger StegaStamp --poisoned_rate 0.1  --grou
 python inference.py --backdoor --dataset cub200 --trigger StegaStamp --group CBL --seed 0 --gpu 0 --bs 512
 ```
 The test results will be saved in Training_Results\cub200\CBL_s0
-* Also, you can download the pre-training weight to test directly: http://www.CBL_model.com
+* Also, you can download the pre-training weight to test directly: https://pan.baidu.com/s/1KCA_RBxj9a80bmAcnkWFKA?pwd=xu3p
 
 
 
