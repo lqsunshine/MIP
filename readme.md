@@ -28,7 +28,21 @@ cub200_bd\
 &emsp;&emsp;&emsp;&emsp;│   Black_Footed_Albatross_0001_796111_bd\
 &emsp;&emsp;&emsp;&emsp;│   ...
 
-* Also, you can download the processed poisoned dataset directly: http://www.poisoned_dataset.com
+* Also, you can download the processed poisoned dataset directly.
+
+Data for clean dataset\
+* CUB200-2011 (1.08 GB): https://www.dropbox.com/s/tjhf7fbxw5f9u0q/cub200.tar?dl=0
+* CARS196 (1.86 GB): https://www.dropbox.com/s/zi2o92hzqekbmef/cars196.tar?dl=0
+* SOP (2.84 GB): https://www.dropbox.com/s/fu8dgxulf10hns9/online_products.tar?dl=0
+* In-shop(2.84 GB): https://www.dropbox.com/s/fu8dgxulf10hns9/online_products.tar?dl=0
+
+Data for poisoned dataset\
+* cub200_bd (1.08 GB): https://www.dropbox.com/s/tjhf7fbxw5f9u0q/cub200.tar?dl=0
+* CARS196_bd (1.86 GB): https://www.dropbox.com/s/zi2o92hzqekbmef/cars196.tar?dl=0
+* online_products_bd (2.84 GB): https://www.dropbox.com/s/fu8dgxulf10hns9/online_products.tar?dl=0
+* in_shop_bd(2.84 GB): https://www.dropbox.com/s/fu8dgxulf10hns9/online_products.tar?dl=0
+
+Data for cluster pkl: https://www.dropbox.com/s/fu8dgxulf10hns9/online_products.tar?dl=0
 
 ## Usage (windows|bat script)
 * Train our models through main.py.
