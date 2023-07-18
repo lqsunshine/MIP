@@ -1,0 +1,23 @@
+C->C:Embed-Type: discriminative:,,,,,,
+,,,,,,
+e_recall@1,e_recall@2,e_recall@4,nmi,f1,mAP_1000,mAP_c
+,,,,,,
+0.5565,0.6744,0.7848,0.6062,0.274,0.2647,0.1796
+,,,,,,
+C->P:Embed-Type: discriminative:,,,,,,
+,,,,,,
+e_recall@1,e_recall@2,e_recall@4,nmi,f1,mAP_1000,mAP_c
+,,,,,,
+0.3982,0.5294,0.6614,0.5336,0.1595,0.1595,0.0961
+,,,,,,
+P->C:Embed-Type: discriminative:,,,,,,
+,,,,,,
+e_recall@1,e_recall@2,e_recall@4,nmi,f1,mAP_1000,mAP_c
+,,,,,,
+0.2694,0.3842,0.5196,0.4536,0.0997,0.126,0.069
+,,,,,,
+P->P:Embed-Type: discriminative:,,,,,,
+,,,,,,
+e_recall@1,e_recall@2,e_recall@4,nmi,f1,mAP_1000,mAP_c
+,,,,,,
+0.3695,0.4978,0.6318,0.4707,0.1359,0.1247,0.0783

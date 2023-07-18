@@ -1,0 +1,8 @@
+C->C:Embed-Type: discriminative:
+e_recall@1: 0.5336 | e_recall@2: 0.6658 | e_recall@4: 0.7730 | e_recall@8: 0.8550 | mAP_500: 0.2503 | mAP_1000: 0.2582 | mAP_1500: 0.2605 | mAP_2000: 0.2615 | nmi: 0.5971 | f1: 0.2678 | mAP_c: 0.1749
+P->C:Embed-Type: discriminative:
+e_recall@1: 0.0511 | e_recall@2: 0.0831 | e_recall@4: 0.1315 | e_recall@8: 0.1941 | mAP_500: 0.0034 | mAP_1000: 0.0039 | mAP_1500: 0.0045 | mAP_2000: 0.0050 | nmi: 0.1584 | f1: 0.0289 | mAP_c: 0.0027
+C->P:Embed-Type: discriminative:
+e_recall@1: 0.0074 | e_recall@2: 0.0203 | e_recall@4: 0.0358 | e_recall@8: 0.0721 | mAP_500: 0.0042 | mAP_1000: 0.0057 | mAP_1500: 0.0068 | mAP_2000: 0.0079 | nmi: 0.0010 | f1: 0.0195 | mAP_c: 0.0011
+P->P:Embed-Type: discriminative:
+e_recall@1: 0.1096 | e_recall@2: 0.1740 | e_recall@4: 0.2596 | e_recall@8: 0.3788 | mAP_500: 0.0184 | mAP_1000: 0.0215 | mAP_1500: 0.0235 | mAP_2000: 0.0250 | nmi: 0.2674 | f1: 0.0332 | mAP_c: 0.0102

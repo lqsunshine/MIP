@@ -1,0 +1,8 @@
+C->C:Embed-Type: discriminative:
+e_recall@1: 0.5565 | e_recall@2: 0.6744 | e_recall@4: 0.7848 | nmi: 0.6062 | f1: 0.2740 | mAP_1000: 0.2647 | mAP_c: 0.1796
+C->P:Embed-Type: discriminative:
+e_recall@1: 0.3982 | e_recall@2: 0.5294 | e_recall@4: 0.6614 | nmi: 0.5336 | f1: 0.1595 | mAP_1000: 0.1595 | mAP_c: 0.0961
+P->C:Embed-Type: discriminative:
+e_recall@1: 0.2694 | e_recall@2: 0.3842 | e_recall@4: 0.5196 | nmi: 0.4536 | f1: 0.0997 | mAP_1000: 0.1260 | mAP_c: 0.0690
+P->P:Embed-Type: discriminative:
+e_recall@1: 0.3695 | e_recall@2: 0.4978 | e_recall@4: 0.6318 | nmi: 0.4707 | f1: 0.1359 | mAP_1000: 0.1247 | mAP_c: 0.0783

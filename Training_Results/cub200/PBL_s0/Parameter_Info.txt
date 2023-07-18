@@ -1,0 +1,303 @@
+dataset
+	cub200
+
+use_tv_split
+	False
+
+tv_split_by_samples
+	False
+
+tv_split_perc
+	0.8
+
+augmentation
+	base
+
+lr
+	1e-05
+
+fc_lr
+	-1
+
+decay
+	0.0004
+
+n_epochs
+	20
+
+kernels
+	0
+
+bs
+	512
+
+seed
+	0
+
+scheduler
+	step
+
+gamma
+	0.3
+
+tau
+	[1000]
+
+optim
+	adam
+
+loss
+	margin
+
+batch_mining
+	random
+
+embed_dim
+	512
+
+not_pretrained
+	False
+
+arch
+	resnet50_frozen_normalize
+
+no_train_metrics
+	False
+
+evaluate_on_gpu
+	False
+
+evaluation_metrics
+	['e_recall@1', 'e_recall@2', 'e_recall@4', 'e_recall@8', 'mAP_500', 'mAP_1000', 'mAP_1500', 'mAP_2000', 'nmi', 'f1', 'mAP_c']
+
+storage_metrics
+	['e_recall@1']
+
+evaltypes
+	['discriminative']
+
+gpu
+	[0]
+
+savename
+	CUB_Triplet_Random_StegaStamp_p0.1_s0
+
+source_path
+	Dataset/cub200
+
+save_path
+	Training_Results/cub200/CUB_Triplet_Random_StegaStamp_p0.1_s0_1
+
+data_sampler
+	class_random
+
+samples_per_class
+	2
+
+data_batchmatch_bigbs
+	512
+
+data_batchmatch_ncomps
+	10
+
+data_storage_no_update
+	False
+
+data_d2_coreset_lambda
+	1
+
+data_gc_coreset_lim
+	1e-09
+
+data_sampler_lowproj_dim
+	-1
+
+data_sim_measure
+	euclidean
+
+data_gc_softened
+	False
+
+data_idx_full_prec
+	False
+
+data_mb_mom
+	-1
+
+data_mb_lr
+	1
+
+miner_distance_lower_cutoff
+	0.5
+
+miner_distance_upper_cutoff
+	1.4
+
+miner_rho_distance_lower_cutoff
+	0.5
+
+miner_rho_distance_upper_cutoff
+	1.4
+
+miner_rho_distance_cp
+	0.2
+
+loss_contrastive_pos_margin
+	0
+
+loss_contrastive_neg_margin
+	1
+
+loss_triplet_margin
+	0.2
+
+loss_margin_margin
+	0.2
+
+loss_margin_beta_lr
+	0.0005
+
+loss_margin_beta
+	1.2
+
+loss_margin_nu
+	0
+
+loss_margin_beta_constant
+	False
+
+loss_proxynca_lrmulti
+	50
+
+loss_npair_l2
+	0.005
+
+loss_angular_alpha
+	45
+
+loss_angular_npair_ang_weight
+	2
+
+loss_angular_npair_l2
+	0.005
+
+loss_multisimilarity_pos_weight
+	2
+
+loss_multisimilarity_neg_weight
+	40
+
+loss_multisimilarity_margin
+	0.1
+
+loss_multisimilarity_thresh
+	0.5
+
+loss_lifted_neg_margin
+	1
+
+loss_lifted_l2
+	0.005
+
+loss_quadruplet_margin_alpha_1
+	0.2
+
+loss_quadruplet_margin_alpha_2
+	0.2
+
+loss_softtriplet_n_centroids
+	2
+
+loss_softtriplet_margin_delta
+	0.01
+
+loss_softtriplet_gamma
+	0.1
+
+loss_softtriplet_lambda
+	8
+
+loss_softtriplet_reg_weight
+	0.2
+
+loss_softtriplet_lrmulti
+	1
+
+loss_softmax_lr
+	1e-05
+
+loss_softmax_temperature
+	0.05
+
+loss_histogram_nbins
+	65
+
+loss_snr_margin
+	0.2
+
+loss_snr_reg_lambda
+	0.005
+
+loss_arcface_lr
+	0.0005
+
+loss_arcface_angular_margin
+	0.5
+
+loss_arcface_feature_scale
+	16
+
+online_backend
+	wandb
+
+log_online
+	False
+
+wandb_key
+	8a9d157b766ce88a903f1e143d2b7e53abde3e33
+
+project
+	dml_project
+
+group
+	CUB_Triplet_Random_StegaStamp_p0.1
+
+backdoor
+	True
+
+poisoned_rate
+	0
+
+trigger
+	StegaStamp
+
+lambda1
+	1.0
+
+lambda2
+	0.0
+
+lambda3
+	1.0
+
+lambda4
+	1.0
+
+plambda1
+	1.0
+
+plambda2
+	1.0
+
+pre_path
+	Training_Results/cub200/CUB_Triplet_Random_StegaStamp_p0.1_s0/checkpoint_Test_discriminative_e_recall@1.pth.tar
+
+device
+	cuda
+
+crop_size
+	224
+
+n_classes
+	100
+
