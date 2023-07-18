@@ -21,7 +21,7 @@ cub200\
 ```sh
 python backdoor/StegaStampG/encode_image_dataset.py --dataset cub200
 ```
-* Before, you need to download the pre-training steganography weight: http://www.encoder.com. You can get\
+* Before, you need to download the pre-training steganography weight: https://pan.baidu.com/s/1q80SWM-cH0TunM-p2nGLrQ?pwd=35mb. You can get\
 cub200_bd\
 &emsp;&emsp;└───images\
 &emsp;&emsp;&emsp;&emsp;└───001.Black_footed_Albatross\
@@ -30,16 +30,16 @@ cub200_bd\
 
 * Also, you can download the processed poisoned dataset directly.
 
-Data for clean dataset\
+Data for clean dataset
 * CUB200-2011 : https://www.dropbox.com/s/tjhf7fbxw5f9u0q/cub200.tar?dl=0
 * CARS196 : https://www.dropbox.com/s/zi2o92hzqekbmef/cars196.tar?dl=0
 * SOP: https://www.dropbox.com/s/fu8dgxulf10hns9/online_products.tar?dl=0
 * In-shop: https://pan.baidu.com/s/1pJHUjew0BthI9WoMJOLYFw?pwd=2cap 
 
-Data for poisoned dataset\
+Data for poisoned dataset
 * cub200_bd: https://pan.baidu.com/s/1hngl7pWTUqD1PPYz71VHIA?pwd=9wmu
 * CARS196_bd: https://pan.baidu.com/s/1daubcqOYISnjaHwKCOAu_A?pwd=t0uz
-* online_products_bd: https://www.dropbox.com/s/fu8dgxulf10hns9/online_products.tar?dl=0
+* online_products_bd: https://pan.baidu.com/s/1pSkHJqCdKv5SMdUobkoG2A?pwd=72r3
 * in_shop_bd: https://pan.baidu.com/s/15bv2Fn7Q-wl0I4iMowRlWw?pwd=m9tf
 
 Data for cluster pkl: https://pan.baidu.com/s/1ReVs0CjVVIWe7OGMulS1_w?pwd=5pvj
