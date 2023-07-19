@@ -21,7 +21,7 @@ cub200\
 ```sh
 python backdoor/StegaStampG/encode_image_dataset.py --dataset cub200
 ```
-* Before, you need to download the pre-training steganography weight: https://pan.baidu.com/s/1q80SWM-cH0TunM-p2nGLrQ?pwd=35mb. You can get\
+* Before, you need to download the pre-training steganography weight (place in backdoor/StegaStampG/ckpt): https://pan.baidu.com/s/12aBYKCsLjvCoRAnMeI85nw?pwd=8hj8. You can get\
 cub200_bd\
 &emsp;&emsp;└───images\
 &emsp;&emsp;&emsp;&emsp;└───001.Black_footed_Albatross\
@@ -42,7 +42,7 @@ Data for poisoned dataset
 * online_products_bd: https://pan.baidu.com/s/1pSkHJqCdKv5SMdUobkoG2A?pwd=72r3
 * in_shop_bd: https://pan.baidu.com/s/15bv2Fn7Q-wl0I4iMowRlWw?pwd=m9tf
 
-Data for cluster pkl: https://pan.baidu.com/s/1ReVs0CjVVIWe7OGMulS1_w?pwd=5pvj
+Data for cluster pkl: https://pan.baidu.com/s/10527lvJkkkbpEPc56ip6gA?pwd=dtyk
 
 ## Usage (windows|bat script)
 * Train our models through main.py.
