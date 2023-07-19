@@ -173,7 +173,7 @@ def backdoor_parameters(parser):
 
     parser.add_argument('--backdoor', action='store_true', help='Flag. If set, poison training for label attack or testing for inference. Note:when loss select poison_triplet or poison_triplet_c, do not set --backdoor true')
     parser.add_argument('--poisoned_rate', default=0, type=float, help='Rate of poisoned samplps in training dataset, 0: mean belign training, >0: poison training. [0-1] ')
-    parser.add_argument('--trigger', default='StegaStampG',  type=str,   help='Type of backdoor trigger,Note: if select StegaStampG, run backdoor/StegaStampG/encode_image_dataset.py first')
+    parser.add_argument('--trigger', default='StegaStamp',  type=str,   help='Type of backdoor trigger,Note: if select StegaStamp, run backdoor/StegaStampG/encode_image_dataset.py first')
 
     #PBL
     parser.add_argument('--lambda1', default=1.0, type=float, help='weight of Loss1')
