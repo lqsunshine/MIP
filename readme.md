@@ -67,7 +67,7 @@ python main.py --dataset cub200 --group Clean --seed 0 --gpu 0 --bs 80 --samples
 ```
 * Test:
 ```sh
-python inference.py --backdoor --dataset cub200 --group Clean  --seed 0 --gpu 0 --bs 512 --arch resnet50_frozen_normalize
+python inference.py --dataset cub200 --group Clean  --seed 0 --gpu 0 --bs 512 --arch resnet50_frozen_normalize
 ```
 
 The test results will be saved in Training_Results\cub200\Clean_s0
